@@ -1,0 +1,137 @@
+/*Page Layout*/
+html, body {
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0; /*space from content and border*/
+}
+#content{
+    margin: 0; /* the bottom margin is the negative value of the footer's height */
+    padding: 0; /*space from content and border*/
+    padding-bottom:20px;
+}
+/*Useful*/
+#username-border {
+    border-radius: 25px;
+    background: #dddddd;
+    border: 3px solid #696969;
+    padding: 0px 10px 0px 10px; 
+}
+input, textarea, button {
+    -webkit-appearance: none;
+    border-radius: 0;
+    background-color: #dddddd;
+}
+a {
+    color:#000000;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+/*Other*/
+#myInput {
+background-position: 10px 12px;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+}
+#myUL {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+#myUL li a {
+border: 1px solid #ddd;
+margin-top: -1px;
+background-color: #ffffff;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+color: black;
+display: block
+}
+
+#myUL li a.header {
+background-color: #e2e2e2;
+cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+background-color: #e2e2e2;
+}
+/*Dropdown*/
+.dropbtn {
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+.dropdown-content a:hover {
+    background-color: blue
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+input { font:12px arial; }
+
+a {
+    color:#000000;
+    text-decoration:none; }
+
+a:hover { text-decoration:underline; }
+
+#wrapper {
+    margin:0 auto;
+    background:#dddddd;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border:1px solid #696969; }
+
+#messages {
+    text-align:left;
+    background:#fff;
+    height: 500px;
+    width: calc(auto - 20px);
+    border:1px solid #696969;
+    overflow:auto; }
+
+#submit { width: 60px; }
+
+#messages {
+    margin:8px;
+    padding: 4px;
+}
+
+.msgln { margin:0 0 2px 0; }
+bojdy {
+  /* The image used */
+  background:url("/Images/BG1.png") #ffffff no-repeat center center fixed;
+  image-rendering: pixelated;
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
